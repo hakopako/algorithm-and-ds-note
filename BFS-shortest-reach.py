@@ -13,7 +13,7 @@ Hackerrank.com
 2 3
 2
 -----------------------
-Sample Output
+[Sample Output]
 6 6 -1
 -1 6
 """
