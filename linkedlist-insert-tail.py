@@ -25,3 +25,9 @@ def Insert(head, data):
         n = n.next
     n.next = Node(data=data, next_node=None)
     return head
+
+"""
+Find the last node with repeatedly calling next node from input.
+A node which doesn't have next value is the last.
+set new data to the next of the node.
+"""

@@ -28,3 +28,17 @@ for i in range(1,n):
                 print(" ".join(arr))
             arr[j] = tmp
 print(" ".join(arr))
+
+"""
+O(n^2)
+ => two nested for loops.
+ => worst case is reversed list.
+ 
+Firstly, assume the first elem is sorted.
+Then focuse on second elem so called A and compare the sorted array and A in descending order.
+when the elem which is smaller than A is found, swap larger elems to the next place in the array
+and put A into the rest place.
+ 
+this is one cycle. 
+repeat this action by changing target elem A to next one.
+"""

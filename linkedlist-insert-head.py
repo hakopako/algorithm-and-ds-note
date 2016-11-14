@@ -20,3 +20,8 @@ Hackerrank.com
 
 def Insert(head, data):
     return Node(data=data, next_node=head)
+
+"""
+set current head node to the next value of new data.
+new data is new head of the linked list.
+"""

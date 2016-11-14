@@ -22,3 +22,7 @@ def inOrder(root):
     print(str(root.data) + " ", end="", flush=True)
     if root.right != None:
         inOrder(root.right)
+
+"""
+visit left node, current node and right node recursively
+"""

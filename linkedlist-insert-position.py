@@ -17,8 +17,7 @@ Hackerrank.com
 
  return back the head of the linked list in the below method. 
 """
-#This is a "method-only" submission.
-#You only need to complete this method.
+
 def InsertNth(head, data, position):
     if head == None:
         return Node(data=data, next_node=None)
@@ -32,4 +31,8 @@ def InsertNth(head, data, position):
     tmp = n.next
     n.next = Node(data=data, next_node=tmp)
     return head
+
+"""
+
+"""
     
