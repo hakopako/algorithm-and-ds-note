@@ -64,3 +64,13 @@ for i in range(2, int(num[0])+1):
         result += 1
 
 print(str(result))
+
+"""
+Nodes numbers are given from input.
+FirstrlyCreate every node, and then add connections so that a tree is created.
+
+From the bottom to the top of the tree, check if the subtree has even nodes.
+Count up numbers of the positive place.
+
+In-order traversal would work.
+"""
